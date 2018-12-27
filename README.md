@@ -23,4 +23,5 @@ also the count of posts hidden will appear on the extension icon
 ![screen4](http://codesnakers.com/uploads/fb-posts-filter/1.png)
 
 
-you can find the extension on Chrome Web Store also [link to extension]{https://chrome.google.com/webstore/detail/facebook-posts-filter/jmiognjmboemchbbidgbloflklkikooj}
+you can find the extension on Chrome Web Store also 
+https://chrome.google.com/webstore/detail/facebook-posts-filter/jmiognjmboemchbbidgbloflklkikooj
