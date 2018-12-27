@@ -1,0 +1,27 @@
+{
+  "name": "Facebook Posts Filter",
+  "short_name": "FB Filter",
+  "version": "1.1",
+  "description": "Filter your facebook posts by keywords",
+  "icons": {
+      "128": "assets/128.png",
+      "16": "assets/16.png",
+      "32": "assets/32.png",
+      "48": "assets/48.png"
+   },
+   "browser_action": {
+      "default_icon": "assets/32.png"
+   },
+   "background": {
+    "scripts": ["background.js"]
+  },
+  "content_scripts": [{
+    "matches": [ "https://*.facebook.com/*" ],
+    "css": ["css/style.css"],
+	"js": ["js/jquery-1.8.2.min.js","content.js"]
+  }],
+  "options_page": "options.html",
+  "permissions": [ 	"https://www.facebook.com/*", "activeTab", "tabs", "storage" ],
+  "manifest_version": 2,
+  "web_accessible_resources": [ "pencil-15.png" ]
+}

@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>FB posts filter Options</title>
+	<link rel="stylesheet" href="css/options.css"/>
+	 <style>
+		/* Style for this page */
+		body>.main-container{max-width:800px;margin:10px auto}
+		header{max-width:700px;margin:0 auto 10px 0;font-size:48px}
+		.fork-github{position:absolute;top:0;right:0;width:164px;height:164px}
+		.social-buttons{margin-top:-30px}
+		.fr{float:right}
+		h1{ font-weight: bold; }
+	</style>
+
+</head>
+<body>
+<div class="main-container">
+	<header><img src="assets/logo.png" width="200px"></header>
+	<h1>Facebook Posts Filter Options</h1>
+	<hr/>
+	<h3>Words to Filter<br />Enter words here which will be searched in fb posts and if found the post will be hidden.</h3> 
+	<input type=text id="word"><button id="add_word">Add</button><br>
+	<div id="word_list_status"></div>
+	<div id="word_list"></div><br>
+
+	<div id="status"></div>
+	
+	<!--<br><button id="save">Save</button>-->
+</div>
+<footer><div>Developed by <a target=_blank href="http://codesnakers.com">codesnakers.com</a></div></footer>
+<script type="text/javascript" src="js/jquery-1.8.2.min.js" charset="UTF-8"></script>
+<script type="text/javascript" src="js/options.js"></script>
+</body>
+</html>

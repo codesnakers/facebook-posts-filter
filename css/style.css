@@ -1,0 +1,11 @@
+.fbpf-hidden > div:not(.fbpf-message){
+	display: none !important;
+}
+.fbpf-message{
+	padding: 5px;
+    background: #fff;
+    border-radius: 3px;
+    border: solid 1px #dddfe2;
+    color: #999;
+	cursor: pointer;
+}
